@@ -12,3 +12,5 @@ Fetches Express Entry rounds and saves latest one t Azure Storage
 * Azurite emulator installed for local Azure Storage development
     * start emulator (Start Azure Blob Service at least) when running/debugging function locally
     * in `local.settings.json` set `"AzureWebJobsStorage": "UseDevelopmentStorage=true"` to use locally running storage emulator
+* Azure Storage extension for Visual Studio Code installed
+    * allows viewing data saved to local Azure Storage emulator

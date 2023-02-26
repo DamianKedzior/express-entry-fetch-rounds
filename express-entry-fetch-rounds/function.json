@@ -5,6 +5,13 @@
       "type": "timerTrigger",
       "direction": "in",
       "schedule": "0 */1 * * * *"
+    },
+    {
+      "name": "outputblob",
+      "type": "blob",
+      "path": "express-entry-rounds/last_draw",
+      "connection": "AzureWebJobsStorage",
+      "direction": "out"
     }
   ]
 }
